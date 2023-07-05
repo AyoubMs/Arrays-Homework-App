@@ -1,0 +1,15 @@
+Create an array of 3 names. Ask the user which number to select. When the user gives you a number, return that name. Make sure to check for invalid numbers.
+
+string[] names = new string[] { "name1", "name2", "name3" };
+
+ask user: number
+if (number >= 1 && number <=3) {
+	Console.WriteLine(names[number - 1]);
+}
+else {
+	Console.WriteLine("Please enter a valid number");
+}
+
+return that name
+
+check for invalid numbers
